@@ -24,10 +24,6 @@
     {
       "name": "Languages and Frameworks",
       "keywords": [ "C", "C++", "Java", "Javascript", ]
-    },
-    {
-      "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
     }
   ],
   "education": [
