@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/BinaryStringTree/binary-300x274.png
 title: "BinaryStringTree"
 date: 2024-04-11
 published: true
