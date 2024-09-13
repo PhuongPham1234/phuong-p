@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/Calculator/calculator-gradient-square-icon-vector-8304808.png 
+image: img/calculator-gradient-square-icon-vector-8304808.png 
 title: "Calculator"
 date: 2024-03-12
 published: true
