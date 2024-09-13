@@ -1,9 +1,9 @@
 ---
 layout: essay
 type: essay
-title: "Smart Questions, Good Answers"
+title: "The Art of Smart Questions"
 # All dates must be YYYY-MM-DD format!
-date: 2015-09-08
+date: 2024-09-12
 published: true
 labels:
   - Questions
@@ -13,87 +13,41 @@ labels:
 
 <img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
 
-## Is there such thing as a stupid question?
-
-I’ve had instructors address a whole class and say, “There’s no such thing as a stupid question.” I now know that is in fact not true because I’ve challenged the statement and received the appropriate dumb-stricken, annoyed look. There are definitely stupid questions, and along with that, usually unhelpful answers. Though we all might be guilty of being callous and making people victim to our poorly formed questions, there are steps we can take to ask smarter questions that hopefully don’t illicit the dreaded “rtfm” or “stfw” response.
 
 ## What’s a smart question?
 
-Stack Overflow, a question and answer site for programmers, is a great resource for anyone who may have issues with code or who may simply want to learn new or different methods of doing something. There I found examples of good questions and bad questions, which could probably be improved.
-
-In the following example, we examine the components of a decent question. In this case, the asker is trying to figure out a way to get the date of the previous month in Python.
+  After reading “How to ask questions the smart way” by Eric Raymond, it will be better understood that asking smart questions is very crucial because communication is one of the most important software engineering skills to develop, furthermore, it portrays the person who asks the question is smart and confident. Before asking a question it is important to know what you are talking about by attempting to search for answers on your own, and this could be using the search engines, reading manuals, or trying to troubleshoot. Knowing what you don’t know is meant to be precise and informative when you are trying to come up with a question. Asking the right audience is effective at getting the answer you want because you wanna ask your questions in the appropriate community where the expert in the particular field resides. Make sure to present your question without error because it will make you look very unprofessional if there are typos. The thing about asking questions is that it’s your problem and not anyone else’s problem so no one has the obligation to help you. When asking questions it’s a good idea to be patient and respectful even when you get the answer right away. Let’s talk about what makes a question good and how a bad question can have negative side effects.
 
 ```
-Q: python date of the previous month
+Q: How to make heapq evaluate the heap off of a specific attribute?
 
-I am trying to get the date of the previous month with python. Here is what i've tried:
+I wish to hold a heap of objects, not just numbers. They will have an integer attribute in them that the heap can sort by. The easiest way
 
-str( time.strftime('%Y') ) + str( int(time.strftime('%m'))-1 )
-
-However, this way is bad for 2 reasons: First it returns 20122 for the February of 2012 (instead of 201202) 
-and secondly it will return 0 instead of 12 on January.
-
-I have solved this trouble in bash with:
-
-echo $(date -d"3 month ago" "+%G%m%d")
-
-I think that if bash has a built-in way for this purpose, then python, much more equipped, should provide something 
-better than forcing writing one's own script to achieve this goal. Of course i could do something like:
-
-if int(time.strftime('%m')) == 1:
-    return '12'
-else:
-    if int(time.strftime('%m')) < 10:
-        return '0'+str(time.strftime('%m')-1)
-    else:
-        return str(time.strftime('%m') -1)
-        
-I have not tested this code and i don't want to use it anyway (unless I can't find any other way:/)
-
-Thanks for your help!
+to use heaps in python is heapq, but how do I tell it to sort by a specific attribute when using heapq?
 ```
 
-While the heading of his question could be better, it does convey what he’s trying to figure out. Usually something as brief as “python date of previous month” is what other users would enter in as search terms on Google, making it easily found. Another good thing about the question is that it’s not just a question. The asker shows what he or she has done and that he or she has put in some effort to answer the question. And while it may not be as important as the question itself, the asker shows courtesy, which does increase the chance of getting an answer.
+  Above is an example of a good question that I have found on Stack Overflow. The person wants to know how to make heapq evaluate the heap off of a specific attribute. Below the question the person clearly defines what he wants to achieve. The person also shows proof that he did his homework and has a good understanding of what he’s asking by stating the easiest way to use heaps in python. He even clarified the question furthermore by specifying that he would like to know how to sort by a specific attribute when using heapq. Because this person provided all the necessary information required to understand the problem while being respectful. This question is easy to understand, contains technical terminology, and shows that the person who asks puts in the time and effort which checks off the principles of asking smart questions as mentioned in the reading.
 
-```
-A: datetime and the datetime.timedelta classes are your friend.
-
-1. find today
-2. use that to find the first day of this month.
-3. use timedelta to backup a single day, to the last day of the previous month.
-4. print the YYYYMM string you're looking for.
-
-Like this:
-
- >>> import datetime
- >>> today = datetime.date.today()
- >>> first = datetime.date(day=1, month=today.month, year=today.year)
- >>> lastMonth = first - datetime.timedelta(days=1)
- >>> print lastMonth.strftime("%Y%m")
- 201202
- >>>
-
-```
- 
-The asker received six possible answers, and he or she was successful in inciting discussion from multiple users. The answers themselves were clear and were devoid of the rumored sarcasm and hostility of “hackers.” Since I myself have referenced this page and found it useful, I can confidently say that it is a good question.
 
 ## The foolproof way to get ignored.
 
-While there are decent questions that benefit everyone, there are those one can ask to create an entirely different effect. In the following example, a user asks how he would, in short, create a desktop application with Facebook.
+Here is an example of a bad question. The person asked ‘I need to rewrite Java ‘“for” to “while” and “do”’. First of all, this is not a question but rather it is a blatant statement. I assume the question is asking how to write a Java for loop to a do while loop. The typos in the question made it really difficult to understand which makes the person helping second guess himself. In addition, the misspelling on appreciated really shows sloppiness and unprofessionalism. The person does not explain in detail what the for loop does and this shows that the person did not even attempt to fix the problem. This question exemplifies the highlights of what a bad question should look like. It is fair to say that questions like these are terrible and should not even be considered. Smart questions are important in the field, especially in software engineering. Hackers looking at a question like a bad one above makes him uneased and shy away from answering. While hackers looking at a good question makes him think and engage in figuring out the solution. So it is very important to ask good, smart questions anytime you would like to get help from someone else!!
+
 
 ```
-Q: Facebook Desktop Notifier
+A: I need to rewrite Java "for" to "while" and "do" 
 
-I am a beginner programmer that have never used anything other than what's included in a language.
+i made a "for" a while a back ago now i need to change it to a "While" and change that to a "do", any help would be appriciated
 
-I am trying to create a desktop application that notifies me anytime I get an update onfacebook. 
-How should go about doing this? Thanks in advance.
+Like this:
 
-edit Sorry I was not clear. Is there any way to make a DESKTOP application with facebook?
+for(int i = 3; i <= 10; i++) {
+  System.out.print(" " + i);
+  if(i % 10 == 0)
+    System.out.print("\n");
+}
+System.out.println();
+}
+}
 ```
 
-A simple “yes” would have answered the question, but we know that’s not the sort of answer he or she is looking for. Fortunately, someone kindly responded with a link to Facebook’s developer website. The asker should have done more research on his or her potential project. Then further down the road, he or she could have asked more specific and detailed questions that wouldn’t require a thousand-paged response for a sufficient answer.
-
-## Conclusion
-
-When we rely on others’ generosity and expertise to provide answers to our questions, it should hold that the question we ask should be one that leads to efficient and effective help that not only benefits us, but also the people we ask and others who might ask the same question in the future. Thus, if you have a question… make it a smart one! Asking questions may not always get you the best answer, but asking them in a way that will make others want to answer them will increase the success of finding a good solution and make it a positive experience on all sides.
