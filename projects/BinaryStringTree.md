@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/binary-300x274-square.png
+image: img/Perfect-Binary-Tree-1.png
 title: "BinaryStringTree"
 date: 2024-04-11
 published: true
