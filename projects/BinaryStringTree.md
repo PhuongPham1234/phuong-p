@@ -9,7 +9,7 @@ labels:
   - Java
 summary: "A program created in ICS 211 that finds the top 10 most used word in literature"
 ---
-
+This project has taught me how trees can be used to efficiently store and manipulate data which plays a big role in solving real world problems that involve text analysis. the text is read and each word is stored in the tree in it's lexicographical order which allows for binary search with logarithmic time. A tweak in the program was made prior to running to achieve a balanced tree and this really important because the height of the tree is calculated to be 24 which is significantly higher than a perfectly balanced tree which equals to around 11. 
 
 Here is the source code for the program:
 
