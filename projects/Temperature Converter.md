@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/Temperature Converter/Snake_OG-logo.jpg
+image: img/Snake_OG-logo.jpg
 title: "Temperature Converter"
 date: 2024-7-14
 published: true
