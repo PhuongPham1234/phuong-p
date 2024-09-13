@@ -7,7 +7,7 @@ date: 2024-04-11
 published: true
 labels:
   - Java
-summary: "A program created in ICS 211 that finds the top 10 most used word in text"
+summary: "A program created in ICS 211 that finds the top 10 most used word in literature"
 ---
 
 <div class="text-center p-4">
