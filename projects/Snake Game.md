@@ -1,13 +1,13 @@
 ---
 layout: project
 type: project
-image: img/Snake Game/cotton-square.png
+image: img/Snake Game/Snake_OG-logo.jpg
 title: "Snake Game"
 date: 2024-7-14
 published: true
 labels:
   - Java
-summary: "A snake game that I created using Java."
+summary: "A snake game that I created using Java"
 ---
 
 <img class="img-fluid" src="../img/cotton/cotton-header.png">
