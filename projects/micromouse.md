@@ -2,14 +2,12 @@
 layout: project
 type: project
 image: img/micromouse/micromouse-square.jpg
-title: "Micromouse"
-date: 2015
+title: "BinaryStringTree"
+date: 2024-04-11
 published: true
 labels:
-  - Robotics
-  - Arduino
-  - C++
-summary: "My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition."
+  - Java
+summary: "A program created in ICS 211 that finds the top 10 most used word in text"
 ---
 
 <div class="text-center p-4">
