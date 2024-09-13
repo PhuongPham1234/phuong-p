@@ -10,6 +10,8 @@ labels:
 summary: "A temperature converter program that I created using Java"
 ---
 
+In this project I gained a deeper understanding of fundamental Java concepts and practical programming skills. This was my first personal programming project outside of class after I took ICS 111. Many concepts implemented aren't too complex though I have learned about the importance of code structure. This project will be remembered as the project that ignites my programming career!
+
 
 ```
 import java.util.Scanner;
