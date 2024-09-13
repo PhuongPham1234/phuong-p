@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/vacay/calculator.jpg
+image: img/vacay/calculator.png
 title: "Calculator"
 date: 2024-03-12
 published: true
