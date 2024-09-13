@@ -45,7 +45,7 @@ Here is an example of a bad question. The person asked ‘I need to rewrite Java
 
 
 ```
-A: I need to rewrite Java "for" to "while" and "do" 
+Q: I need to rewrite Java "for" to "while" and "do" 
 
 i made a "for" a while a back ago now i need to change it to a "While" and change that to a "do", any help would be appriciated
 
