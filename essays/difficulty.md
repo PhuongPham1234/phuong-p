@@ -9,7 +9,7 @@ labels:
   - Engineering
 ---
 
-<img width="600px" class="rounded float-start pe-4" src="../img/raw.githubusercontent.com/phuong808/phuong808.github.io/refs/heads/main/img/CodingStandard.jpg)">
+<img width="500px" class="rounded float-start pe-4" src="../img/CodingStandard.jpg">
 
 ## My experience with ESLint
 
